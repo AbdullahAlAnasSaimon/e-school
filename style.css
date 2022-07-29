@@ -101,7 +101,7 @@ section{
     cursor: pointer;
 }
 /* grownig styles */
-.growing, .courses{
+.growing, .courses, .testimonial{
     margin-top: 100px;
     display: flex;
     justify-content: center;
@@ -149,7 +149,7 @@ section{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 30px;
-    margin: 10px 10px;
+    margin: 20px;
 }
 .course{
     background-color: #fff;
@@ -183,4 +183,22 @@ section{
     font-size: 14px;
     font-weight: 600;
     color: #585859;
+}
+/* testimonials styles */
+.test-devider{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+.testimonial-img{
+    width: 40%;
+}
+.testimonial-img img{
+    width: 120px;
+    display: block;
+    margin: 0 auto;
+}
+.testimonial-details{
+    width: 60%;
 }

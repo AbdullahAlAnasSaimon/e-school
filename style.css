@@ -237,3 +237,69 @@ footer{
     padding: 15px;
     font-size: 14px;
 }
+
+/* media query styles */
+
+/* mobile view */
+@media screen and (max-width: 576px) {
+    .container{
+        width: 90%;
+        overflow: hidden;
+    }
+    /* header styles  */
+    .header-top{
+        flex-direction: column;
+    }
+    .navigation{
+        width: 100%;
+    }
+    .navigation ul{
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    /* banner styles  */
+    .banner{
+        flex-direction: column;
+    }
+    .banner-detail{
+        width: 100%;
+        text-align: center;
+    }
+    .banner-img{
+        width: 100%;
+        margin-top: 50px;
+    }
+    /* growing section styles */
+    .grow-wrapper, .course-container, .footer-wrapper{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    /* testimonial section styles */
+    .test-devider{
+        flex-direction: column;
+    }
+    .testimonial-details{
+        width: 80%;
+        text-align: center;
+    }
+    /* footer styles  */
+    .footer-wrapper{
+        padding: 20px;
+    }
+    .quater-1{
+        width: 100%;
+        text-align: center;
+    }
+    .mv-mx-auto{
+        margin: 0 auto;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+}
+/* tablet view */
+@media screen and (min-width: 577px) and (max-width: 992px) {
+    .container{
+        width: 90%;
+        overflow: hidden;
+    }
+}

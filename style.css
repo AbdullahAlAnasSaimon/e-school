@@ -282,6 +282,9 @@ footer{
         width: 80%;
         text-align: center;
     }
+    .testimonial-img img{
+        margin-right: 0px;
+    }
     /* footer styles  */
     .footer-wrapper{
         padding: 20px;
@@ -301,5 +304,56 @@ footer{
     .container{
         width: 90%;
         overflow: hidden;
+    }
+    /* header styles  */
+    .header-top{
+        flex-direction: column;
+    }
+    .navigation{
+        width: 100%;
+    }
+    .navigation ul{
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    /* banner styles  */
+    .banner{
+        flex-direction: column;
+    }
+    .banner-detail{
+        width: 100%;
+        text-align: center;
+    }
+    .banner-img{
+        width: 100%;
+        margin-top: 50px;
+    }
+    /* growing section styles */
+    .grow-wrapper, .course-container, .footer-wrapper{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    /* testimonial section styles */
+    .test-devider{
+        flex-direction: column;
+    }
+    .testimonial-details{
+        width: 80%;
+        text-align: center;
+    }
+    .testimonial-img img{
+        margin: 0 auto;
+    }
+    /* footer styles  */
+    .footer-wrapper{
+        padding: 20px;
+    }
+    .quater-1{
+        width: 100%;
+    }
+    .mv-mx-auto{
+        margin: 0 auto;
+        margin-bottom: 20px;
+        margin-top: 20px;
     }
 }

@@ -208,6 +208,10 @@ footer{
     background-color: #242424;
     color: #ffffff;
 }
+.footer-logo{
+    margin: 0 auto;
+    margin-top: 20px;
+}
 .footer-wrapper{
     display: grid;
     grid-template-columns: repeat(4, 1fr);

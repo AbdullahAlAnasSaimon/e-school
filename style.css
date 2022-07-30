@@ -123,7 +123,6 @@ section{
     border-radius: 10px;
 }
 .grow-card:hover{
-    background-color: #fff;
     box-shadow: 0px 5px 25px 0px #a9a9a933;
     cursor: pointer;
 }
@@ -198,7 +197,43 @@ section{
     width: 120px;
     display: block;
     margin: 0 auto;
+    margin-right: 40px;
 }
 .testimonial-details{
     width: 60%;
+}
+/* footer styles */
+footer{
+    margin-top: 100px;
+    background-color: #282531;
+    color: #ffffff;
+}
+.footer-wrapper{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    padding: 50px;
+}
+.quater-1{
+    width: 300px;
+}
+.quater-title{
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.footer-list{
+    list-style: none;
+}
+.footer-list li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 13px;
+    margin: 5px 0px;
+    display: inline-block;
+}
+.footer-bottom{
+    text-align: center;
+    padding: 15px;
+    font-size: 14px;
 }
